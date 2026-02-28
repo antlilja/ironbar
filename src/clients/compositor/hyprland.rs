@@ -193,7 +193,6 @@ impl Client {
                         error!("Unable to locate workspace");
                     }
                     Err(e) => error!("Failed to get workspace: {e:#}"),
-                    _ => {}
                 }
             });
         }
